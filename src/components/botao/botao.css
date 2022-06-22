@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+.botao{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    opacity: 1;
+    transition: all ease 0.2s;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+}
+
+.botao:hover{
+    opacity: 0.7;
+}
+
+.frase {
+    text-align: center;
+}
